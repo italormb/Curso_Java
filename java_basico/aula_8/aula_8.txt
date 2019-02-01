@@ -1,0 +1,35 @@
+operador ternário:
+
+se (n1 > n2) entao
+	maior <- n1
+se nao
+	maior <- n2
+fim
+
+O algoritmo acima é traduzido por uma linha em java:
+maior = n1 > n2 ? n1:n2;
+----------------------------------------------------
+Operadores relacionais
+
+> : 5>2 true
+< : 4<1 false
+>= : 8 >=3 true
+<= : 6<=6 true
+== : 9==8  false
+!= : 4 != 5 true
+
+and: &&
+or:  ||
+not: !
+xor: ^
+----------------------------------------------
+Expressão lógica complexa
+16-18 opcional
+18-70 obrigatoria
+idade >= 16 && idade < 18 || idade > 70
+------------------------------------------------
+exercicios:
+
+Fazer o genio do advinha -> quebrar linha: <html> <strong>.texto<strong> </html>  objeto.setFont(new Font("Arial Black", Font.PLAIN, 16));
+
+

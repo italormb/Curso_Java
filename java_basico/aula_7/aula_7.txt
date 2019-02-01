@@ -1,0 +1,58 @@
+Operadores aritméticos:
+soma: "-","+";
+Divisão: "/";
+Multiplicação: "*";
+Resto da divisão: "%";
+Ordem de precedência com ();
+
+-----------------------------
+Operadores Unários:
+++ -> incremento
+-- -> Decremento
+
+ex:
+int numero=5;
+int valor= 5 + ++numero; valor= 11, numero=6;
+int valor=  5 + numero++; valor=11; 
+int x = 4
+x+=2; // x=x+2;
+-----------------------------
+Class Math
+
+PI <- math.PI = 3.14.....
+pow _<- exponeciação, Math.pow(5,2) = 25
+sqrt <- Raiz Quadrada, Math.sqrt(16) = 4
+Classe.math 
+-------------texttext-------------
+Arredondamentos
+-abs -> int Math.abs(-10)
+- floor _> int Math.floor(3.9)= 3
+- ceil -> int Math.ceil(4.2)= 5
+- round -> int Math.round(5.6)= 6
+------------------------------
+Gerador de numeros aleatórios entre 0.0 a 1.0
+double a =Math.random();
+--------------------------------------
+construtor é métido com o mesmo nome da classe.
+ex:
+package classes;
+
+public class telaCalc extends javax.swing.JFrame{
+	public telaCalc (){ // Construtor
+		initComponents();
+		panCalc.setVisible(false); // o painel não existe;
+
+	}
+
+}
+
+No entanto quando clicar no botão o painel tem que aparecer:
+
+private void btnActionPerfomed(...){
+	//TODO add
+	panCalc.setVisible(true);
+# A opção resizeble pode habilitar opu tirar;
+------------------------------------------------
+#super calculadora
+
+}

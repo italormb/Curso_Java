@@ -1,0 +1,11 @@
+agora veremos vetores;
+
+int n[]= new int[4]; //quando eu uso new é um objeto, a posição inicial é zero;
+n[0]=3;
+n[1]=5;
+n[2]=8;
+n[3]=2;
+
+int n[]= {3,4,8,2};
+um objeto tem caracteristica e tem propriedades, atributos e funções(metodos);
+o vetor tem tamanho que é 5;

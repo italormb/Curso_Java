@@ -1,0 +1,10 @@
+O código fonte em java precisa de um compilador com o nome de javaC e assim o codigo gerado não é executavel é um bytecode(codigo binário), mas o computadores não compreendem  e assim o bitcode é enviado no jvm (java virtual machine) e assim ela interpreta e gera código para a maquina entender. A sacada é que o byte code gerado em qualquer uma das platafrma, compilador e assim só basta enviar para qualquer jvm de qualquer S.O. que assim funciona, isso se chama de WORA(Write once run AnyWhere), ou seja compilar em qualquer lugar e rode em qualquer plataforma;
+A plataforma de java é uma sopa de letrinhas:
+Temos dois grupos para plataforma em java:
+jdk (java development kit): Para desenvolvedores; (JRE, JAVALANG,JAVA TOOLS(0javaC, Debugger), IDE)
+jre(java runtime evironment): Para rodar programas; (JVM(loader/verificador , interpretador/gerenciador, Compilador Jit(just in time)),BIBLIOTECAS).
+Codigo em java tem extensão .java e depois de compilar .class
+compilador consome mais memoria e menos tempo
+um programa interpretado cosome menos memoria e maior tempo de execução
+Processso de compilação:
+codigo fonte -> compilador -> codigo realocavel -> montador -> código objeto

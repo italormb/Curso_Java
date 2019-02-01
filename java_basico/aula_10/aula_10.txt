@@ -1,0 +1,38 @@
+COndição omposta encadeada;
+if(){
+	
+}
+else{
+	if(){
+
+	}
+	else{
+
+	}
+}
+---------------------------
+COndições Multiplas de escolha:
+if(){}
+if(){}
+...
+else{}
+
+ou
+
+int pernas = teclado.nextInt()
+String tipo;
+
+Switch(pernas){
+	case 1: 
+	tipo="saci";
+	break;
+	case 2:
+	tipo= "bipede";
+	break;
+	case 6,8
+	tipo= "aranha";
+	break;
+	default:
+	tipo="et";
+	
+}

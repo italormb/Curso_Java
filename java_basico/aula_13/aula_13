@@ -1,0 +1,12 @@
+for (int i=0; i<=13; i++){
+	sout("vai repitir bastante");
+
+}
+
+---------------------------------------
+for aninhado:
+for(){
+	for(){
+	
+	}
+}

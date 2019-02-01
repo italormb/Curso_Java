@@ -1,0 +1,34 @@
+Tipos Primitivos e Manipulação de Dados:
+como comenta  código? 
+Linha específica //
+Multíplas linhas /*   .... */
+comentários para documentação /** autor, titulo , data /
+
+- Tipos de variáveis (Famílias): 
+Inteiro: são variaveis : int idade=3; ou int idade= (int) 3; (exemplo de typecast) e pode-se fazer com classe: é objeto: Integer idade = new Integer(3); (chama-se de wrapper class).
+FLoat: Inteiro: são variaveis : float sal=1825.54f; ou float sal= (float) 1825.54; (exemplo de typecast) e pode-se fazer com classe: é objeto: Float sal = new Float(1825.54); (chama-se de wrapper class).
+Caracter: char letra = 'G'; char letra = (char) 'G';  Character letra = new Character('G');
+Lógico: boolean casado= false; boolean casado= (boolean) false; Boolean casado = new Boolean(False);
+exemplo:
+float nota= 8.5f;
+
+para saida:
+
+System.out.println("Sua nota é" + nota);
+System.out.printf("A sua nota é %f", nota);
+System.out.format("A sua nota é %.2f", nota);
+
+para entrada de dados:
+temos que importar as entrada no java:
+ex; import java.util.Scanner;
+Scanner telado = new Scanner(System.in);
+ex: String nome = teclado.nextLine();
+	float nota = teclado.nextFloat();
+
+incompatibilidade de numeros e string:
+int idade=30;
+String valor= (String) idade; //tipos incompativeis o int não pode virar String
+Maneira correta:
+String valor = Integer.toString(idade);
+inverso:
+int idade = Integer.parseInt(valor);

@@ -1,0 +1,4 @@
+Interpretado vai do codigo fonte para executavel (python)
+Compilador vai de codigo fonte até modulo-objeto(c) 
+linker vai de objeto até executavel
+fluxogramas é importante para curos de T.I.

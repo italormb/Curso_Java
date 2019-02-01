@@ -1,0 +1,31 @@
+Métodos
+No java não tem uma palavra especifica para função ou procedimento, chamamos de método, e não temos uma palavra chave para chamar método.
+Em java a identificação é pelo tipo de retorno, se não tiver tipo de retorno usa uma palavra especifica;
+Main é um método
+---------------------------------------------------------------------------------------
+Exemplo de um procedimento em java:
+
+void soma(int a, int b){
+	int s=a+b;
+	sout(s);
+}
+
+soma(5,2);
+-------------------------------------
+main é um método;
+public static void main(String[] args){
+	
+}
+
+public: método publico é uma caracterização que torna o metodo public para qualquer um fora poder usar
+static: método estático é um método que serve para classe e não para uma instancia, eu não posso hamar um procedimento que n é estatico dentro de um que é estatico que é a main. QUando um método estático é funcional dentro da classe e não é instanciamento de objeto
+void main: void é um porcedimento, metodo rotina
+(String[] args): recebe um argumento de string que é vetor;
+
+Vamos criar um exemplo com multiplaS CLASSES;
+criar a classe principal;
+
+classe é como uma biblioteca
+metodo como função
+
+Observação: toda função que for rodar terá que ser rodada na main pois ela chama os outras função, todo codigo é rododa dentro da main

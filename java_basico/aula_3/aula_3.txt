@@ -1,0 +1,6 @@
+IDE (integrated development environment);
+RAP(Rapid application  Development)
+JDK (SE(Standard Edition) EE(Enterprise Edition) ME(Micro Edition))
+SE -> Janelas, aplicativos, interfaces graficas.
+EE ->  Janelas, aplicativos, interfaces graficas com aCESSO REMOTO, BANCO DE DADOS GIGANTE
+ME -> controle de dispositivos portateis, aplicativos para celular e embarcados

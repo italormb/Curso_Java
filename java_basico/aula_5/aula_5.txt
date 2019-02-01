@@ -1,0 +1,36 @@
+-O java é igual carro básico, o essencial ele tem, se quiser algo a mais tera que inserir pacotes;
+ex: import "pacote"
+import arCondicionado;
+- Por padrão o java já vem com java.lang
+- exemplos reias de pacotes: Java.applet Java.math Java.util Javax.sound javax.media javax.swing javafx.fxml java.net;
+- Coma funciona a biblioteca swing:
+Ela criar interfaces graficas para janela, qualquer sistema que tenha interface grafica funciona
+AWT abstract window toolkit -> Ele deixa o S.O. deixar livre para criar os botões e isso é negativa ;
+e a evolução É A "swing"
+import javax.swing
+
+- public class TelaSwing extends javax.swing.JFrame { // extends é usado para herdar herança
+	private javax.swing.JButton btnClick; // o private é um encapsulamento, pegar algo publico e torna privado
+	private void btnClickActionPerformed(...)
+	lbLMensagem.setText("Ola mundo")
+}
+
+- Agora JavaFX é suporte para qualquer plataforma de pc e smartphone e a futura versão serão para blueray, games e teve interativa
+
+import javafx.fxml.FXML;
+public class FXMLDocumentController
+	implements Initializable { //o implements é uma interface
+
+	@FXML
+	private Button btnClick;
+	private Label  lblMensagem;
+
+	@FXML
+	private void clicouBotao(...){
+		lblMensagem.setText("ola,ítalo!");
+		
+
+	}
+	}
+
+	A swing e javafx são parecidas em cabeçalho,declaração dos controles e o metodo do botão
